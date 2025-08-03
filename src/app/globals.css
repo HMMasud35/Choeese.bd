@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-oswald: var(--font-oswald);
+
+}
+
+@layer {
+  .container {
+    @apply w-[1350px] m-auto
+  }
+
+  /* .item {
+    @apply relative mt-7 py-2 pb-4 px-6 hover:text-green-400 hover:bg-green-400/10 hover:transform hover:duration-700 after:content-[""] after:absolute after:-bottom-0.5 after:left-0 after:h-0.5 after:w-full after:bg-green-400 after:transition-transform after:duration-700 after:origin-right after:scale-x-0 hover:after:w-full hover:after:origin-left hover:after:scale-x-100
+  }
+
+  .btn {
+    @apply cursor-pointer px-5 py-3 border-2 border-green-400 bg-green-500 rounded-md text-white text-lg font-semibold shadow-lg shadow-green-500/60 hover:bg-black hover:text-green-400
+  } */
+}
