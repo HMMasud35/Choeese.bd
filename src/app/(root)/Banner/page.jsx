@@ -12,12 +12,12 @@ const Banner = () => {
           <div className='col-start-1 col-end-10'>
             <Slider />
           </div>
-          <div className='col-start-10 col-end-13 p-3 bg-teal-900/50'>
-            <button className='bg-[url(/Location.png)] w-full h-30 p-3 cursor-pointer'>
+          <div className='col-start-10 col-end-13 p-3 bg-gradient-to-br bg-gray-950/10'>
+            <button className='bg-[url(/Location.png)] w-full h-35 p-3 cursor-pointer border-2 border-gray-700'>
               <h4 className='text-xl font-semibold m-auto text-center'>
                 <PiMapPinArea className='text-5xl m-auto' />Select your delivery location</h4>
             </button>
-            <div className='grid grid-cols-2 h-30 mt-5 items-center gap-3'>
+            <div className='grid grid-cols-2 mt-7 items-center gap-4'>
               <div className='col-1 '>
                 <Image className='w-full' width={800} height={800} src="/QR-Code.png" alt='Profilepic.png' />
               </div>

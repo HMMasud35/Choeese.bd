@@ -25,13 +25,13 @@ export default function Slider() {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <Image className='w-full h-70' width={600} height={600} src="/background2.png" alt='Profilepic.png'/>
+          <Image className='w-full h-80' width={600} height={600} src="/background2.png" alt='Profilepic.png'/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image className='w-full h-70' width={600} height={600} src="/background6.png" alt='Profilepic.png'/>
+          <Image className='w-full h-80' width={600} height={600} src="/background6.png" alt='Profilepic.png'/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image className='w-full h-70' width={600} height={600} src="/background8.png" alt='Profilepic.png'/>
+          <Image className='w-full h-80' width={600} height={600} src="/background8.png" alt='Profilepic.png'/>
         </SwiperSlide>
       </Swiper>
       <Swiper
